@@ -8,7 +8,6 @@ packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-ultralytics = {path = "additional_packages/ultralytics", develop = true}
 jupyterlab = "^4.4.5"
 pandas = "^2.3.1"
 numpy = "2.2.6"
@@ -17,6 +16,7 @@ scikit-learn = "^1.7.1"
 albumentations = "^2.0.8"
 kaggle = "^1.7.4.5"
 ensemble-boxes = "^1.0.9"
+ultralytics = {git = "https://github.com/VSydorskyy/ultralytics"}
 
 
 [build-system]
