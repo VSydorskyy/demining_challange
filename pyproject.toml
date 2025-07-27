@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "demining-challange"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ultralytics = {path = "additional_packages/ultralytics", develop = true}
+jupyterlab = "^4.4.5"
+pandas = "^2.3.1"
+numpy = "2.2.6"
+ipdb = "^0.13.13"
+scikit-learn = "^1.7.1"
+albumentations = "^2.0.8"
+kaggle = "^1.7.4.5"
+ensemble-boxes = "^1.0.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

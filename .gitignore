@@ -1,0 +1,13 @@
+*__pycache__
+*.ipynb_checkpoints
+*.egg-info
+.vscode
+logdirs
+predictions
+.venv
+.api_temp
+temp
+hydra_temp
+scripts/temp.py
+outputs
+data
